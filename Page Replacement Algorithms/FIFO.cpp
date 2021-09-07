@@ -49,7 +49,7 @@ int main()
     int size;
     cout<<"Enter the size of the frame: ";
     cin>>size;
-    cout<<"The total number page fault is: "<<pageFaults(pages,n,size);
+    cout<<"The total number of page faults is: "<<pageFaults(pages,n,size);
     
 
     return 0;
